@@ -30,16 +30,16 @@ class Health {
 
 let myHealth = new Health("200HP");
 console.log(myHealth)
-let myHeal = new Heal("Quickly");
+let myHeal = new Health("Quickly");
 console.log(myHeal)
 
 
 
 class Power {
-    constructor(defeat) {
-        this.defeat = defeat;
+    constructor(Defeat) {
+        this.Defeat = Defeat;
     }
 }
 
-let myDefeat = new Power("150HP");
-console.log(myDefeat)
+let myPower = new Power("150HP");
+console.log(myPower)
