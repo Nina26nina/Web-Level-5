@@ -27,7 +27,6 @@ class Pen {
 const pen1 = new Pen("Marker", "Blue", "$3");
 pen1.showPrice();
 
-
 let myCarAudi = new Car("Audi", 2023, "$100,250");
 myCarAudi.run();
 console.log(myCarAudi);
